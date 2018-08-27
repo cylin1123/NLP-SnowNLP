@@ -2,4 +2,7 @@
 * version 2.7.12
 ## Package
 * SnowNLP
+~~~~
+pip install snownlp
+~~~~
 * NLTK
