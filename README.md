@@ -65,3 +65,9 @@ sentiment.train('negative.txt', 'positive.txt')
 sentiment.save('sentiment.marshal')
 ~~~~
 訓練好的就存儲為seg.marshal，將snownlp/seg/__init__.py的data_path指向剛訓練好的檔
+
+### SnowNLP TF-IDF
+TF-IDF評估一個字詞對於一個檔集或一個語料庫中的其中一份檔的重要程度。TF詞頻越大代表越重要，但是文中會的“的”，“你”等無意義詞頻很大，卻信息量幾乎為0，這種情況導致單純看詞頻評價詞語重要性是不準確的。因此需搭配IDF的主要思想是：如果包含詞條t的文檔越少，也就是n越小，IDF越大，則說明詞條t越重要
+
+
+
