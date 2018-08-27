@@ -20,7 +20,7 @@ snownlp是一個中文的自然語言處理的Python套件，支援中文自然�
 *	文本相似 ([BM25](http://en.wikipedia.org/wiki/Okapi_BM25))
 ### 優缺點
 優點
-* 購物類的評論的準確率較高
+* 購物類的評論的準確率較高 => 內建購物相關評論詞庫
 
 缺點
 * 分詞及及情感分析速度不快
@@ -47,3 +47,20 @@ s.keywords(N) # 提取N個關鍵字詞
 s.summary(N) # 提取N個關鍵字詞組成摘要
 ~~~~
 
+### SnowNLP 訓練
+~~~~
+#分詞訓練
+from snownlp import seg
+seg.train('data.txt')
+seg.save('seg.marshal')
+
+#詞性標註訓練
+from snownlp import tag
+tag.train('199801.txt')
+tag.save('tag.marshal')
+
+#情感分析訓練
+from snownlp import sentiment
+sentiment.train('neg.txt', 'pos.txt')
+ sentiment.save('sentiment.marshal')
+~~~~
