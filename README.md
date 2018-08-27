@@ -5,10 +5,6 @@
 ~~~~
 pip install snownlp
 ~~~~
-* NLTK
-~~~~
-pip install -U nltk
-~~~~
 ## SnowNLP
 snownlp是一個中文的自然語言處理的Python套件，支援中文自然語言操作
 * 中文分詞
