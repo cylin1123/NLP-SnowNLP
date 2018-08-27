@@ -7,8 +7,8 @@ pip install snownlp
 ~~~~
 ## SnowNLP
 snownlp是一個中文的自然語言處理的Python套件，支援中文自然語言操作
-* 中文分詞
-*	詞性標注
+* 中文分詞 (Character-Based Generative Model)
+*	詞性標注 (Trigrams'n'Tags, 3-gram)
 *	情感分析
 *	文本分類
 *	轉換成拼音
@@ -18,6 +18,13 @@ snownlp是一個中文的自然語言處理的Python套件，支援中文自然�
 *	TF-IDF
 *	Tokenization
 *	文本相似
+### 優缺點
+優點
+* 
+
+缺點
+* 分詞及及情感分析速度不快
+
 
 ### SnowNLP 情感分析
 情感分析結果是【0，1】區間上的一個值，越接近1，情感越積極，越接近0，情感越消極 => 可以理解為positive的概率
