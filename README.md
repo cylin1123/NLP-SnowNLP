@@ -35,7 +35,7 @@ s.han
 s.keywords(N) # 提取N個關鍵字詞
 ~~~~
 
-### SnowNLP 提取文章關鍵字
+### SnowNLP 提取文章摘要
 ~~~~
 s.summary(N) # 提取N個關鍵字詞組成摘要
 ~~~~
