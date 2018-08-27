@@ -56,11 +56,11 @@ seg.save('seg.marshal')
 
 #詞性標註訓練
 from snownlp import tag
-tag.train('199801.txt')
+tag.train('.txt')
 tag.save('tag.marshal')
 
 #情感分析訓練
 from snownlp import sentiment
-sentiment.train('neg.txt', 'pos.txt')
- sentiment.save('sentiment.marshal')
+sentiment.train('negative.txt', 'positive.txt')
+sentiment.save('sentiment.marshal')
 ~~~~
