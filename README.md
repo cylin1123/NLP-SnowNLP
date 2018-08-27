@@ -64,3 +64,4 @@ from snownlp import sentiment
 sentiment.train('negative.txt', 'positive.txt')
 sentiment.save('sentiment.marshal')
 ~~~~
+訓練好的就存儲為seg.marshal，將snownlp/seg/__init__.py的data_path指向剛訓練好的檔
