@@ -6,3 +6,6 @@
 pip install snownlp
 ~~~~
 * NLTK
+~~~~
+pip install -U nltk
+~~~~
