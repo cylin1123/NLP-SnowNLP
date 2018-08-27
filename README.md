@@ -1,2 +1,4 @@
-# Natural-Language-Processing
-Natural Language Processing
+## Python Version
+* version 2.7.12
+## Package
+* SnowNLP
