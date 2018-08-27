@@ -8,7 +8,7 @@ pip install snownlp
 ## SnowNLP
 snownlp是一個中文的自然語言處理的Python套件，支援中文自然語言操作
 * 中文分詞 (Character-Based Generative Model)
-*	詞性標注 (Trigrams'n'Tags, 3-gram)
+*	詞性標注 ([TnT](http://aclweb.org/anthology//A/A00/A00-1031.pdf), 3-gram)
 *	情感分析 (Naive Bayes)
 *	文本分類 (Naive Bayes)
 *	轉換成拼音 (Trie樹實現的最大匹配)
@@ -17,7 +17,7 @@ snownlp是一個中文的自然語言處理的Python套件，支援中文自然�
 *	提取文本摘要 ([TextRank](http://acl.ldc.upenn.edu/acl2004/emnlp/pdf/Mihalcea.pdf))
 *	TF-IDF
 *	Tokenization
-*	文本相似
+*	文本相似 ([BM25](http://en.wikipedia.org/wiki/Okapi_BM25)
 ### 優缺點
 優點
 * 購物類的評論的準確率較高
