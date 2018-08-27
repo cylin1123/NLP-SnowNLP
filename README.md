@@ -19,5 +19,18 @@ snownlp是一個中文的自然語言處理的Python套件，支援中文自然�
 *	Tokenization
 *	文本相似
 
-### snownlp情感分析
+### SnowNLP 情感分析
 情感分析結果是【0，1】區間上的一個值，越接近1，情感越積極，越接近0，情感越消極 => 可以理解為positive的概率
+~~~~
+s.sentiments
+~~~~
+
+### SnowNLP 繁體轉簡體
+~~~~
+s.han
+~~~~
+
+### SnowNLP 提取文章關鍵字
+~~~~
+keywords(N) # 提取N個關鍵字詞
+~~~~
