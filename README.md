@@ -17,7 +17,7 @@ snownlp是一個中文的自然語言處理的Python套件，支援中文自然�
 *	提取文本摘要 ([TextRank](http://acl.ldc.upenn.edu/acl2004/emnlp/pdf/Mihalcea.pdf))
 *	TF-IDF
 *	Tokenization
-*	文本相似 ([BM25](http://en.wikipedia.org/wiki/Okapi_BM25)
+*	文本相似 ([BM25](http://en.wikipedia.org/wiki/Okapi_BM25))
 ### 優缺點
 優點
 * 購物類的評論的準確率較高
